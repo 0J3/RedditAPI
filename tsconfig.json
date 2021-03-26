@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "rootDir": "./ts",
+    "outDir": "./js",
+    "sourceMap": true,
+    "inlineSourceMap": false,
+    "tsBuildInfoFile": ".tsbuildinfo",
+    "declaration": true,
+    "composite": true,
+    "moduleResolution": "Node",
+    "target": "ES6",
+    "declarationMap": true,
+    "declarationDir": "./deffinitions"
+  },
+  "include": ["./ts/**/*","./ts/*"],
+  "exclude": ["./js/**/*","./js/*"]
+}
